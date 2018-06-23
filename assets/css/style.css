@@ -263,3 +263,42 @@ input[type=submit] {
     margin-left: 10px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  body {
+    color: blue;
+    font-size: 8px;
+    line-height: 10px;
+  }
+    .work h3 {
+      color: blue;
+    }
+    .main-section {
+      margin-left: 10px;
+    }
+    .container {
+      margin-left: 10px;
+    }
+  
+}
+
+@media screen and (max-width: 640px) {
+  body {
+    color: blue;
+    font-size: 8px;
+    line-height: 10px;
+  }
+
+    color: green;
+    }
+    .work h3 {
+      color: blue;
+    }
+    .main-section {
+      margin-left: 10px;
+    }
+    .container {
+      margin-left: 10px;
+    }
+  
+}
